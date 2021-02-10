@@ -13,11 +13,11 @@
  *    4. Initialize area, item, and person to 1, each representing the first option
  *    5. Prompt and read user input for the theory they would like to test and store the input in selection
  *    6. Pass in selection into the AssistantJack object to create the right combination
- *    7. In a while loop that iterates until found is true
+ *    7. In a while loop that checks each combination
  *            7a. Initialize theoryTest to jack.checkanswer(item, area, person)
- *            7b. Check if theorytest == 1, if so increment item
- *            7c. Check if theorytest == 2, if so increment area
- *            7d. Check if theorytest == 3, if so increment person
+ *            7b. Check if theorytest == 1, this indicates the item was wrong. If so increment item
+ *            7c. Check if theorytest == 2, this indicates the area was wrong. If so increment area
+ *            7d. Check if theorytest == 3, this indicates the person was wrong. If so increment person
  *            7e. Check if theorytest == 0, if so the solution has been found and exit the loop
  *    8. Store the correct item, area, and person in rightCombo
  *    9. Display report showing the total tries, correct theory and if the mystery was solved in less than 20

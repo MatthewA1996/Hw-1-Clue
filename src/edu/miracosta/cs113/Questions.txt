@@ -1,0 +1,6 @@
+1. When I test theories 1 and 3 I usually get a solution in fewer than 20 guesses. Solving theory 2 usually requires about
+   20 guesses.
+
+2. My algorithm is better than the brute force method since it consistently solves the combination in about 20 or
+   fewer guesses. I test each item in order and prioritize guesses based on checkanswer() feedback instead of randomly
+   testing each combination.
